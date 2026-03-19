@@ -8,7 +8,7 @@ SOAPBOX ON
 I don't think it is possible to add sheets to a CLOSED excel workbook using sas.
 Alos I don't thin sas can preserve the style of yhe workbook.
 I even doublt you can do it with sas access?
-r excel and r python (with the code below) can add sheets to a CLOSED workbook
+r excel and python (with the code below) can add sheets to a CLOSED workbook
 SOAPBOX OFF
 
 Note: None of the process queries are supported by the slc 'proc sql' or sas 'proc sql'
