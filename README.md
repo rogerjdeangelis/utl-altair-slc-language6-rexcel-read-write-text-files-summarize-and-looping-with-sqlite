@@ -872,18 +872,9 @@ Altair slc language6 rexcel read write text files summarize and looping with sql
     > #                             workbook    dataframe   sheet_name
     > #                              -------    ---------   -----------
     > add_sheet_to_existing_workbook(xl_path, median_value,"median_value")
-    Error in addWorksheet(wb, sheet_name) :
-      A worksheet by the name 'median_value' already exists! Sheet names must be unique case-insensitive.
-    Calls: add_sheet_to_existing_workbook -> addWorksheet
     > add_sheet_to_existing_workbook(xl_path, avgs, "avgs")
-    Error in addWorksheet(wb, sheet_name) :
-      A worksheet by the name 'avgs' already exists! Sheet names must be unique case-insensitive.
-    Calls: add_sheet_to_existing_workbook -> addWorksheet
     > add_sheet_to_existing_workbook(xl_path, lines, "lines")
-    Error in addWorksheet(wb, sheet_name) :
-      A worksheet by the name 'lines' already exists! Sheet names must be unique case-insensitive.
-    Calls: add_sheet_to_existing_workbook -> addWorksheet
-
+     
     NOTE: Processing of R statements complete
 
     95        import r=avgs data=workx.avgs;
